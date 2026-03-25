@@ -20,7 +20,7 @@ structured-logging=yes
 log-dns-queries=yes
 loglevel=9
 ```
-Authoritative Nameserver
+### *Authoritative Nameserver*
 
 This is hosted on a Microsoft Azure virtual machine to ensure global reachability and public accessibility. The configuration file (/etc/powerdns/pdns.conf) employs MySQL as the backend for zone data management, as shown below.
 ```bash
