@@ -1,0 +1,9 @@
+# Enable DoT and listen on the standard port 853
+tls-port=853
+
+# Path to the certificate and private key
+tls-cert=/etc/ssl/certs/recursor-cert.pem
+tls-key=/etc/ssl/private/recursor-key.pem
+
+# Bind the DoT service only to the main network IP
+dot-address=10.230.3.83
